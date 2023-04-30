@@ -1,0 +1,82 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# On Semi MOC3052SR2M
+#
+DEF MOC3052SR2M Q 0 40 Y Y 1 L N
+F0 "Q" 0 400 50 H V L CNN 
+F1 "MOC3052SR2M" 0 500 50 H V L CNN 
+F2 "On_Semi-646BY-07_2019-A-*" 0 600 50 H I L CNN 
+F3 "https://www.onsemi.com/download/data-sheet/pdf/moc3052m-d.pdf" 0 700 50 H I L CNN 
+F4 "No" 0 800 50 H I L CNN "automotive"
+F5 "Trans" 0 900 50 H I L CNN "category"
+F6 "Optoelectronics" 0 1000 50 H I L CNN "device class L1"
+F7 "Optocouplers" 0 1100 50 H I L CNN "device class L2"
+F8 "unset" 0 1200 50 H I L CNN "device class L3"
+F9 "OPTOISOLATOR 4.17KV TRIAC 6SMD" 0 1300 50 H I L CNN "digikey description"
+F10 "MOC3052SR2MCT-ND" 0 1400 50 H I L CNN "digikey part number"
+F11 "https://www.onsemi.com/pub/Collateral/646BY.PDF" 0 1500 50 H I L CNN "footprint url"
+F12 "60mA" 0 1600 50 H I L CNN "forward current"
+F13 "1.18V" 0 1700 50 H I L CNN "forward voltage"
+F14 "4.8mm" 0 1800 50 H I L CNN "height"
+F15 "4170Vrms" 0 1900 50 H I L CNN "isolation voltage"
+F16 "Yes" 0 2000 50 H I L CNN "lead free"
+F17 "7b396b87de280f80" 0 2100 50 H I L CNN "library id"
+F18 "On Semi" 0 2200 50 H I L CNN "manufacturer"
+F19 "+100°C" 0 2300 50 H I L CNN "max junction temp"
+F20 "Triac & SCR Output Optocouplers 6Pin 600V Optocoupl Rand Phs Triac Drvr" 0 2400 50 H I L CNN "mouser description"
+F21 "512-MOC3052SR2M" 0 2500 50 H I L CNN "mouser part number"
+F22 "PDIP6" 0 2600 50 H I L CNN "package"
+F23 "330W" 0 2700 50 H I L CNN "power dissipation"
+F24 "3V" 0 2800 50 H I L CNN "reverse voltage"
+F25 "Yes" 0 2900 50 H I L CNN "rohs"
+F26 "0.38mm" 0 3000 50 H I L CNN "standoff height"
+F27 "+85°C" 0 3100 50 H I L CNN "temperature range high"
+F28 "-40°C" 0 3200 50 H I L CNN "temperature range low"
+DRAW
+X ANODE 1 100 0 100 R 40 0 1 1 P 
+X CATHODE 2 100 -300 100 R 40 0 1 1 P 
+X NC 3 100 -600 100 R 40 40 1 1 P 
+X 1_MAIN_TERM 4 1200 -400 100 L 40 0 1 1 P 
+X NC 5 1200 -600 100 L 40 40 1 1 P 
+X 2_MAIN_TERM 6 1200 200 100 L 40 0 1 1 P 
+P 2 1 1 0 250 -100 350 -100 N
+P 2 1 1 0 350 -100 300 -200 N
+P 2 1 1 0 250 -200 350 -200 N
+P 2 1 1 0 250 -100 300 -200 N
+P 2 1 1 0 300 -100 300 0 N
+P 2 1 1 0 300 -200 300 -300 N
+P 2 1 1 0 390 -190 420 -170 N
+P 2 1 1 0 420 -170 450 -200 N
+P 2 1 1 0 450 -200 510 -170 N
+P 2 1 1 0 510 -170 480 -170 N
+P 2 1 1 0 510 -170 490 -200 N
+P 2 1 1 0 390 -130 420 -110 N
+P 2 1 1 0 420 -110 450 -140 N
+P 2 1 1 0 450 -140 510 -110 N
+P 2 1 1 0 510 -110 480 -110 N
+P 2 1 1 0 510 -110 490 -140 N
+P 2 1 1 0 600 0 800 0 N
+P 2 1 1 0 800 0 700 -200 N
+P 2 1 1 0 700 -200 600 0 N
+P 2 1 1 0 600 -200 800 -200 N
+P 2 1 1 0 900 -200 800 -200 N
+P 2 1 1 0 900 -200 1000 -200 N
+P 2 1 1 0 1000 -200 900 0 N
+P 2 1 1 0 900 0 800 -200 N
+P 2 1 1 0 900 0 800 0 N
+P 2 1 1 0 900 0 1000 0 N
+P 2 1 1 0 800 0 800 100 N
+P 2 1 1 0 800 -200 800 -300 N
+P 2 1 1 0 800 -300 800 -300 N
+P 2 1 1 0 800 -300 800 -400 N
+P 2 1 1 0 800 100 800 200 N
+P 2 1 1 0 800 200 1100 200 N
+P 2 1 1 0 800 -400 1100 -400 N
+S 200 300 1100 -700 1 1 0 f
+P 2 1 1 0 300 0 200 0 N
+P 2 1 1 0 300 -300 200 -300 N
+ENDDRAW
+ENDDEF
+#
+# End Library

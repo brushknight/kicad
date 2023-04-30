@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ACST410-8BTR
+#/424284/1048038/2.49/3/4/Integrated Circuit
+DEF ACST410-8BTR IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "ACST410-8BTR" 850 200 50 H V L CNN
+F2 "ACST4108BTR" 850 100 50 H I L CNN
+F3 "https://www.st.com/resource/en/datasheet/acst4.pdf" 850 0 50 H I L CNN
+F4 "STMicroelectronics, ACST410-8BTR, TRIAC, 800V 4A, Gate Trigger 1V 10mA, 3-Pin DPAK" 850 -100 50 H I L CNN "Description"
+F5 "2.4" 850 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ACST410-8BTR" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-ACST410-8BTR" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/ACST410-8BTR?qs=SAP8%252B8699SA4xcwG%252BvoKnA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ACST410-8BTR" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/acst410-8btr/stmicroelectronics?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+F12 "" 850 -900 50 H I L CNN "Mouser Testing Part Number"
+F13 "" 850 -1000 50 H I L CNN "Mouser Testing Price/Stock"
+DRAW
+X COM 1 0 0 200 R 50 50 0 0 P
+X OUT 2 1000 0 200 L 50 50 0 0 P
+X G 3 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
